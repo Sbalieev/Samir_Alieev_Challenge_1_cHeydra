@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
   <head>
-    <title>Test</title>
+    <meta charset="utf-8" />
+    <title>Samir Alieev - Challenge 1</title>
     <link rel="stylesheet" href="index.css" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
   </head>
   <body>
-    <p>
-      Hello world!
-      </p>
+    <section id="container">
+      <header>
+        <strong>ITS</strong> - Welkom op de dashboard van de ruimteschip ITS. Hierin kunt u alle benodigde informatie vinden wat betreft de ruimteschip en het reis naar Mars.
+        Een fijne reis toegewenst!
+
+        <div id="afstandLabel"><cite>Afstand tot Mars vanaf deze locatie.</cite></div>
+        <div id="afstandTotaal">
+
+          <div id="huidigeAfstand">
+            <span id="text">Aantal</span>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div id="voertuig">
+          <section id="informatie">
+            Voedsel voorraad
+            <canvas id="voedselVoorraad"></canvas>
+            Drank voorraad
+            <canvas id="drankVoorraad"></canvas>
+          </section>
+          <section id="omgeving">
+            Afstand
+            <canvas id="niks"></canvas>
+          </section>
+          <section id="voorraden">
+            Voorraden
+          </section>
+        </div>
+
+      </main>
+
+      <footer>
+        Footer
+      </footer>
+    </section>
     </body>
+    <script type="text/javascript" src="js/main.js"></script>
 </html>
