@@ -2,7 +2,10 @@ html, body {
   padding: 0px;
   margin: 0px;
   height: 100%;
+}
 
+section {
+  color: black;
 }
 
 
@@ -50,18 +53,16 @@ html, body {
   }
 
   #informatie {
-    color: white;
     flex: 1 0px;
+    text-align: center;
   }
 
   #omgeving {
-    background-color: blue;
-    color: white;
+    position: relative;
     flex: 1 0px;
   }
 
   #voorraden {
-    background-color: yellow;
     flex: 1 0px;
   }
 
@@ -88,6 +89,61 @@ html, body {
     from {width: 10%;}
     to {width: 100%;}
   }
+
+  #snelheid {
+    width: 70px;
+    height: 300px;
+    background-color: green;
+    animation: snelheidsmeter 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    padding: 10px;
+  }
+
+  @keyframes snelheidsmeter {
+    0% {height: 30px;}
+    30% {height: 50px;}
+    35% {height: 120px;}
+    40% {height: 166px;}
+    45% {height: 220px; background-color: yellow;}
+    50% {height: 183px;}
+    60% {height: 150px;}
+    70% {height: 200px;}
+    80% {height: 300px; background-color: red;}
+    90% {height: 150px;}
+    100% {height: 30px;}
+  }
+
+  #acceleratie {
+    width: 70px;
+    height: 300px;
+    background-color: green;
+    animation: acceleratiemeter 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 100px;
+    padding: 10px;
+  }
+
+  @keyframes acceleratiemeter {
+    0% {height: 40px;}
+    10% {height: 140px;}
+    15% {height: 190px;}
+    20% {height: 170px;}
+    25% {height: 250px;}
+    30% {height: 130px;}
+    35% {height: 150px;}
+    40% {height: 196px;}
+    45% {height: 190px;}
+    50% {height: 223px; background-color: yellow;}
+    60% {height: 190px;}
+    70% {height: 159px;}
+    80% {height: 300px; background-color: red;}
+    90% {height: 120px;}
+    100% {height: 40px;}
+  }
 }
 
 /*
@@ -103,17 +159,14 @@ html, body {
   }
 
   #informatie {
-    background-color: red;
-    color: white;
+
   }
 
   #omgeving {
-    background-color: blue;
-    color: white;
+
   }
 
   #voorraden {
-    background-color: yellow;
 
   }
 }

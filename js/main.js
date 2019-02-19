@@ -3,22 +3,44 @@ var ctx = document.getElementById("voedselVoorraad").getContext('2d');
 var voedselVoorraad = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ["Hoofdgerecht", "Nagerecht", "Bijgerecht", "Zout", "Suiker", "Peper"],
+        labels: ["Hoofdgerecht",  "Vlees", "Gebraad", "Gevogelte", "Nagerecht", "Fruit", "Yoghurt", "Pudding", "Ijs", "Bijgerecht", "Zout", "Suiker", "Peper"],
         datasets: [{
             label: 'Voedsel op voorraad',
-            data: [35, 32, 29, 30, 28, 14],
+            data: [0, 20, 10, 5, 0, 10, 10, 15, 5, 29, 30, 28, 14],
             backgroundColor: [
+              //Hoofdgerecht
                 'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 99, 132, 0.2)',
+              //Nagerecht
                 'rgba(54, 162, 235, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+              //Bijgerecht
                 'rgba(255, 206, 86, 0.2)',
+              //Overige
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
                 'rgba(255, 159, 64, 0.2)'
             ],
             borderColor: [
+              //Hoofdgerecht
                 'rgba(255,99,132,1)',
+                'rgba(255,99,132,1)',
+                'rgba(255,99,132,1)',
+                'rgba(255,99,132,1)',
+              //Nagerecht
                 'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)',
+              //Bijgerecht
                 'rgba(255, 206, 86, 1)',
+              //Overige
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
                 'rgba(255, 159, 64, 1)'
@@ -58,9 +80,19 @@ var drankVoorraad = new Chart(ctx, {
     },
 });
 
+//Toevoegen van procent op afstand
 function addProcent(){
-  var totaal = document.getElementById("huidigeAfstand").offsetWidth;
+  var parentWidth= document.getElementById("afstandTotaal").offsetWidth;
+  var childWidth = document.getElementById("huidigeAfstand").offsetWidth;
 
-  var text = document.getElementById("text");
-  text.innerHTML(totaal);
+  var i=0.01*parentWidth;
+  var changeValue= function () {
+    if(i<parentWidth) {
+      childWidth+= i;       document.getElementById("huidigeAfstand").innerHTML=childWidth.toFixed(2) + "km x100&sup2;";
+    }
+    else {
+      clearInterval(intervalID);
+    }
+  }
+  var intervalID= setInterval(changeValue, 1);
 };

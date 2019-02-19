@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 
   </head>
-  <body>
+  <body onload="addProcent()">
     <section id="container">
       <header>
         <strong>ITS</strong> - Welkom op de dashboard van de ruimteschip ITS. Hierin kunt u alle benodigde informatie vinden wat betreft de ruimteschip en het reis naar Mars.
@@ -17,7 +17,7 @@
         <div id="afstandTotaal">
 
           <div id="huidigeAfstand">
-            <span id="text">Aantal</span>
+            <span id="text"></span>
           </div>
         </div>
       </header>
@@ -31,8 +31,12 @@
             <canvas id="drankVoorraad"></canvas>
           </section>
           <section id="omgeving">
-            Afstand
-            <canvas id="niks"></canvas>
+            <div id="snelheid">
+              Snelheid x100Lj
+            </div>
+            <div id="acceleratie">
+              Accelartie x1000&sup2
+            </div>
           </section>
           <section id="voorraden">
             Voorraden
