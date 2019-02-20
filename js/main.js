@@ -96,3 +96,22 @@ function addProcent(){
   }
   var intervalID= setInterval(changeValue, 1);
 };
+
+//Veranderen van danger icon
+function changeMeldingVeilig(){
+  document.getElementById("veilig").style.display = "block";
+  document.getElementById("storing").style.display = "none";
+  document.getElementById("gevaar").style.display = "none";
+}
+
+function changeMeldingStoring(){
+  document.getElementById("veilig").style.display = "none";
+  document.getElementById("storing").style.display = "block";
+  document.getElementById("gevaar").style.display = "none";
+}
+
+function changeMeldingGevaar(){
+  document.getElementById("veilig").style.display = "none";
+  document.getElementById("storing").style.display = "none";
+  document.getElementById("gevaar").style.display = "block";
+}

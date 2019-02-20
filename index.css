@@ -59,11 +59,86 @@ section {
 
   #omgeving {
     position: relative;
+    text-align: center;
     flex: 1 0px;
   }
 
   #voorraden {
     flex: 1 0px;
+  }
+
+  .meting {
+    border-bottom: 1px solid #eeeeee82;
+    margin-bottom: 30px;
+  }
+
+  .melding {
+    max-width: 44%;
+    min-height: 300px;
+  }
+  #veilig {
+    background-image: url("img/neutraal2.png");
+    animation: meldingVeilig 5s ease-in-out;
+    animation-iteration-count: infinite;
+    display: block;
+  }
+  @keyframes meldingVeilig {
+    0%{background-image: url("img/neutraal2.png");}
+    20%{background-image: url("img/veilig2.png");}
+    40%{background-image: url("img/neutraal2.png");}
+    60%{background-image: url("img/veilig2.png");}
+    80%{background-image: url("img/neutraal2.png");}
+    90%{background-image: url("img/veilig2.png");}
+    100%{background-image: url("img/neutraal2.png");}
+  }
+
+  #storing {
+    background-image: url("img/storing2.png");
+    animation: meldingStoring 3s ease-in-out;
+    animation-iteration-count: infinite;
+    display: none;
+  }
+  @keyframes meldingStoring {
+    0%{background-image: url("img/neutraal2.png");}
+    20%{background-image: url("img/storing2.png");}
+    40%{background-image: url("img/neutraal2.png");}
+    60%{background-image: url("img/storing2.png");}
+    80%{background-image: url("img/neutraal2.png");}
+    90%{background-image: url("img/storing2.png");}
+    100%{background-image: url("img/neutraal2.png");}
+  }
+
+  #gevaar {
+    background-image: url("img/gevaar2.png");
+    animation: meldingGevaar 2s ease-in-out;
+    animation-iteration-count: infinite;
+    display: none;
+  }
+  @keyframes meldingGevaar {
+    0%{background-image: url("img/neutraal2.png");}
+    20%{background-image: url("img/gevaar2.png");}
+    40%{background-image: url("img/neutraal2.png");}
+    60%{background-image: url("img/gevaar2.png");}
+    80%{background-image: url("img/neutraal2.png");}
+    90%{background-image: url("img/gevaar2.png");}
+    100%{background-image: url("img/neutraal2.png");}
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+  }
+  #veiligButton {
+    background: #2AA876;
+    border: 1px solid #1d8c60;
+  }
+  #storingButton {
+    background: #f4a865;
+    border: 1px solid #cc8546;
+  }
+  #gevaarButton {
+    background: #e95c50;
+    border: 1px solid #cc493e;
   }
 
   #afstandTotaal {
@@ -98,6 +173,7 @@ section {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     position: absolute;
+    left: 200px;
     padding: 10px;
   }
 
@@ -124,7 +200,7 @@ section {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     position: absolute;
-    left: 100px;
+    left: 330px;
     padding: 10px;
   }
 

@@ -31,20 +31,42 @@
             <canvas id="drankVoorraad"></canvas>
           </section>
           <section id="omgeving">
+            Spaceship snelheid
             <div id="snelheid">
               Snelheid x100Lj
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
             </div>
             <div id="acceleratie">
               Accelartie x1000&sup2
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
+              <div class="meting"></div>
             </div>
           </section>
-          <section id="voorraden">
-            Voorraden
+          <section id="danger">
+            Omgeving van spaceship
+            <div class="melding" id="veilig"></div>
+            <div class="melding" id="storing"></div>
+            <div class="melding" id="gevaar"></div>
+
+              <button id="veiligButton" onclick="changeMeldingVeilig()">Veilig</button>
+              <button id="storingButton" onclick="changeMeldingStoring()">Storingen</button>
+              <button id="gevaarButton" onclick="changeMeldingGevaar()">GEVAAR</button>
           </section>
         </div>
-
       </main>
-
       <footer>
         Footer
       </footer>
