@@ -93,7 +93,7 @@ section {
   #snelheid {
     width: 70px;
     height: 300px;
-    background-color: green;
+    background-color: #2AA876;
     animation: snelheidsmeter 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -106,19 +106,20 @@ section {
     30% {height: 50px;}
     35% {height: 120px;}
     40% {height: 166px;}
-    45% {height: 220px; background-color: yellow;}
+    45% {height: 220px; background-color: #FFD265;}
     50% {height: 183px;}
     60% {height: 150px;}
     70% {height: 200px;}
-    80% {height: 300px; background-color: red;}
+    80% {height: 300px; background-color: #E8554E;}
     90% {height: 150px;}
+    95% {height: 70px; background-color: #F19C65;}
     100% {height: 30px;}
   }
 
   #acceleratie {
     width: 70px;
     height: 300px;
-    background-color: green;
+    background-color: #2AA876;
     animation: acceleratiemeter 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -132,16 +133,16 @@ section {
     10% {height: 140px;}
     15% {height: 190px;}
     20% {height: 170px;}
-    25% {height: 250px;}
+    25% {height: 250px; background-color: #FFD265;}
     30% {height: 130px;}
     35% {height: 150px;}
     40% {height: 196px;}
-    45% {height: 190px;}
-    50% {height: 223px; background-color: yellow;}
+    45% {height: 190px;background-color: #F19C65;}
+    50% {height: 223px;}
     60% {height: 190px;}
     70% {height: 159px;}
-    80% {height: 300px; background-color: red;}
-    90% {height: 120px;}
+    80% {height: 300px;}
+    90% {height: 120px; background-color: #E8554E;}
     100% {height: 40px;}
   }
 }
