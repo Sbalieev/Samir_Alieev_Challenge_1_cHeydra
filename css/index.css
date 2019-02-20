@@ -73,90 +73,90 @@ section {
         min-height: 300px;
     }
     #veilig {
-        background-image: url("img/neutraal2.png");
+        background-image: url("../../img/neutraal2.png");
         animation: meldingVeilig 5s ease-in-out;
         animation-iteration-count: infinite;
         display: block;
     }
     @keyframes meldingVeilig {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #storing {
-        background-image: url("img/storing2.png");
+        background-image: url("../img/storing2.png");
         animation: meldingStoring 3s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingStoring {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #gevaar {
-        background-image: url("img/gevaar2.png");
+        background-image: url("../img/gevaar2.png");
         animation: meldingGevaar 2s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingGevaar {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     button {
@@ -506,90 +506,90 @@ section {
         background-repeat: no-repeat;
     }
     #veilig {
-        background-image: url("img/neutraal2.png");
+        background-image: url("../img/neutraal2.png");
         animation: meldingVeilig 5s ease-in-out;
         animation-iteration-count: infinite;
         display: block;
     }
     @keyframes meldingVeilig {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #storing {
-        background-image: url("img/storing2.png");
+        background-image: url("../img/storing2.png");
         animation: meldingStoring 3s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingStoring {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #gevaar {
-        background-image: url("img/gevaar2.png");
+        background-image: url("../img/gevaar2.png");
         animation: meldingGevaar 2s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingGevaar {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     button {
@@ -816,90 +816,90 @@ section {
         background-repeat: no-repeat;
     }
     #veilig {
-        background-image: url("img/neutraal2.png");
+        background-image: url("../img/neutraal2.png");
         animation: meldingVeilig 5s ease-in-out;
         animation-iteration-count: infinite;
         display: block;
     }
     @keyframes meldingVeilig {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #storing {
-        background-image: url("img/storing2.png");
+        background-image: url("../img/storing2.png");
         animation: meldingStoring 3s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingStoring {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #gevaar {
-        background-image: url("img/gevaar2.png");
+        background-image: url("../img/gevaar2.png");
         animation: meldingGevaar 2s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingGevaar {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     button {
@@ -1126,90 +1126,90 @@ section {
         background-repeat: no-repeat;
     }
     #veilig {
-        background-image: url("img/neutraal2.png");
+        background-image: url("../img/neutraal2.png");
         animation: meldingVeilig 5s ease-in-out;
         animation-iteration-count: infinite;
         display: block;
     }
     @keyframes meldingVeilig {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/veilig2.png");
+            background-image: url("../img/veilig2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #storing {
-        background-image: url("img/storing2.png");
+        background-image: url("../img/storing2.png");
         animation: meldingStoring 3s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingStoring {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/storing2.png");
+            background-image: url("../img/storing2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     #gevaar {
-        background-image: url("img/gevaar2.png");
+        background-image: url("../img/gevaar2.png");
         animation: meldingGevaar 2s ease-in-out;
         animation-iteration-count: infinite;
         display: none;
     }
     @keyframes meldingGevaar {
         0% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         20% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         40% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         60% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         80% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
         90% {
-            background-image: url("img/gevaar2.png");
+            background-image: url("../img/gevaar2.png");
         }
         100% {
-            background-image: url("img/neutraal2.png");
+            background-image: url("../img/neutraal2.png");
         }
     }
     button {
